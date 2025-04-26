@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gameMenu">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="579dp"
+        android:layout_height="1074dp"
+        android:layout_marginEnd="15dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/Background" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvMenuTitle"
+            android:layout_width="386dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="44dp"
+            android:text="̷D̷̷O̷ ̷Y̷̷O̷̷U̷ ̷K̷̷N̷̷O̷̷W̷ ̷Y̷̷O̷̷U̷̷R̷ ̷H̷̷I̷̷S̷̷T̷̷O̷̷R̷̷Y̷ ?"
+            android:textAlignment="center"
+            android:textColor="#CE1B1B"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.304"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="238dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="#2AFF04"
+            android:text="Start"
+            android:textAlignment="inherit"
+            android:textColor="#101010"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_send"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMenuTitle" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="198dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="#FA1111"
+            android:text="🅔🅧🅘🅣"
+            android:textAlignment="center"
+            android:textColor="#100F0F"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            app:icon="@android:drawable/ic_menu_close_clear_cancel"
+            app:iconSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnStartGame" />
+
+        <Button
+            android:id="@+id/btnHistory"
+            android:layout_width="157dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="56dp"
+            android:backgroundTint="#EF560A"
+            android:text="ℍ𝕚𝕤𝕥𝕠𝕣𝕪"
+            android:textAlignment="center"
+            android:textColor="#101010"
+            android:textSize="24sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnExit" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
