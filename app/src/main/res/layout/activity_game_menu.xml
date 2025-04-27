@@ -22,10 +22,14 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="579dp"
-            android:layout_height="1074dp"
-            android:textAlignment="center"
-            app:srcCompat="@drawable/Background" />
+            android:layout_width="656dp"
+            android:layout_height="967dp"
+            android:layout_marginEnd="13dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/background" />
 
         <TextView
             android:id="@+id/tvMenuTitle"

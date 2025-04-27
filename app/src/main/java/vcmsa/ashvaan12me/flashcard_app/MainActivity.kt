@@ -1,6 +1,9 @@
 package vcmsa.ashvaan12me.flashcard_app
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -15,6 +18,30 @@ class MainActivity : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
+        }//code start here
+        // first we delecare the variables needed
+        val btnLogin = findViewById<Button>(R.id.btnLogin)
+        val edtUsername = findViewById<EditText>(R.id.edtUsername)
+        // now we the user to enter a username and check if they did when they click the button
+        btnLogin.setOnClickListener {
+            val username = edtUsername.text.toString()
+            if (username.isEmpty() || username.isBlank()) {
+                edtUsername.error = "Please enter a username"
+                //now we check if the username is not a number or a special character
+            } else if (!username.all { it.isLetter() }) {
+                edtUsername.error = "Please enter a valid username"
+                // Invalid username: contains non-letter characters
+            }
+            // now we move to the game menu page if the user enters a valid username
+            else {
+                val intent = Intent(this, gameMenu::class.java)
+                intent.putExtra("username", username)
+                startActivity(intent)
+            }
+
+
+
+
         }
     }
 }

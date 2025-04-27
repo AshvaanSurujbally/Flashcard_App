@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".reviewPage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="409dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageView3"
             android:layout_width="656dp"
             android:layout_height="967dp"
             android:layout_marginEnd="13dp"
@@ -31,49 +31,44 @@
             app:srcCompat="@drawable/background" />
 
         <TextView
-            android:id="@+id/tvWelcomeTitle"
-            android:layout_width="351dp"
-            android:layout_height="95dp"
-            android:text="𝕎𝕖𝕝𝕔𝕠𝕞𝕖 𝕥𝕠 𝕥𝕙𝕖 𝕗𝕝𝕒𝕤𝕙𝕔𝕒𝕣𝕕 𝔾𝕒𝕞𝕖 "
+            android:id="@+id/tvReviewTitle"
+            android:layout_width="322dp"
+            android:layout_height="97dp"
+            android:layout_marginTop="16dp"
+            android:text="🆁🅴🆅🅸🅴🆆"
             android:textAlignment="center"
-            android:textColor="#A020F0"
-            android:textSize="34sp"
-            android:textStyle="italic"
+            android:textColor="#0AA099"
+            android:textSize="48sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="220dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="128dp"
-            android:backgroundTint="#02EB2D"
-            android:text="ⓁⓄⒼⒾⓃ"
+        <TextView
+            android:id="@+id/tvScoreTitle"
+            android:layout_width="234dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="40dp"
+            android:text="YOUR SCORE"
             android:textAlignment="center"
-            android:textColor="#161313"
             android:textSize="24sp"
-            app:icon="@android:drawable/ic_menu_send"
-            app:iconSize="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/edtUsername" />
+            app:layout_constraintTop_toBottomOf="@+id/tvReviewTitle" />
 
-        <EditText
-            android:id="@+id/edtUsername"
-            android:layout_width="290dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="68dp"
-            android:ems="10"
-            android:hint="𝖤𝖭𝖳𝖤𝖱 𝖴𝖲𝖤𝖱𝖭𝖠𝖬𝖤"
-            android:inputType="text"
+        <TextView
+            android:id="@+id/tvScore"
+            android:layout_width="219dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="8dp"
             android:textAlignment="center"
-            android:textColor="#0C6DE7"
+            android:textColor="#EB1010"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.536"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/tvWelcomeTitle" />
+            app:layout_constraintTop_toBottomOf="@+id/tvScoreTitle" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
