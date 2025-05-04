@@ -35,8 +35,13 @@ class MainActivity : AppCompatActivity() {
             // now we move to the game menu page if the user enters a valid username
             else {
                 val intent = Intent(this, gameMenu::class.java)
+                //now we take the username and add it to the game menu page as a greeting message in the next page
                 intent.putExtra("username", username)
                 startActivity(intent)
+
+
+
+
             }
 
 
