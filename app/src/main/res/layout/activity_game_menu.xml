@@ -99,17 +99,17 @@
 
         <TextView
             android:id="@+id/tvUserGreeting"
-            android:layout_width="291dp"
-            android:layout_height="48dp"
+            android:layout_width="344dp"
+            android:layout_height="83dp"
             android:layout_marginStart="154dp"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="28dp"
             android:layout_marginEnd="197dp"
             android:textAlignment="center"
             android:textColor="#118AED"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.407"
+            app:layout_constraintHorizontal_bias="0.423"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvMenuTitle" />
     </androidx.constraintlayout.widget.ConstraintLayout>
