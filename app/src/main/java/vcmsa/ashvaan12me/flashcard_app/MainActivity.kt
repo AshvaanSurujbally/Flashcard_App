@@ -38,15 +38,9 @@ class MainActivity : AppCompatActivity() {
                 //now we take the username and add it to the game menu page as a greeting message in the next page
                 intent.putExtra("username", username)
                 startActivity(intent)
-
-
-
-
             }
 
-
-
-
         }
+
     }
 }

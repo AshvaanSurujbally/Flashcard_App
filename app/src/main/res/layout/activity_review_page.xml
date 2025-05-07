@@ -36,7 +36,7 @@
             android:layout_marginTop="16dp"
             android:text="🆁🅴🆅🅸🅴🆆"
             android:textAlignment="center"
-            android:textColor="#0AA099"
+            android:textColor="#CDDC39"
             android:textSize="48sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
@@ -45,11 +45,12 @@
 
         <TextView
             android:id="@+id/tvScoreTitle"
-            android:layout_width="234dp"
-            android:layout_height="64dp"
+            android:layout_width="295dp"
+            android:layout_height="69dp"
             android:layout_marginTop="40dp"
-            android:text="YOUR SCORE"
+            android:text="𝕐𝕆𝕌ℝ 𝕊ℂ𝕆ℝ𝔼 😊"
             android:textAlignment="center"
+            android:textColor="#0DF0A1"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
@@ -58,16 +59,77 @@
 
         <TextView
             android:id="@+id/tvScore"
-            android:layout_width="219dp"
-            android:layout_height="54dp"
+            android:layout_width="294dp"
+            android:layout_height="63dp"
             android:layout_marginTop="8dp"
             android:textAlignment="center"
-            android:textColor="#EB1010"
+            android:textColor="#1445D9"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.536"
+            app:layout_constraintHorizontal_bias="0.495"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvScoreTitle" />
+
+        <TextView
+            android:id="@+id/tvDisplayMeassage"
+            android:layout_width="318dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="32dp"
+            android:textAlignment="center"
+            android:textColor="#3206F8"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvScore" />
+
+        <Button
+            android:id="@+id/btnMenu"
+            android:layout_width="209dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#C712D1"
+            android:text="Menu"
+            android:textAlignment="center"
+            android:textColor="#141414"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_add"
+            app:iconSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPlayAgain" />
+
+        <Button
+            android:id="@+id/btnExitLogin"
+            android:layout_width="209dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#F00707"
+            android:text="Exit"
+            android:textAlignment="center"
+            android:textColor="#090909"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_close_clear_cancel"
+            app:iconSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnMenu" />
+
+        <Button
+            android:id="@+id/btnPlayAgain"
+            android:layout_width="209dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="#28F204"
+            android:text="Play Again"
+            android:textAlignment="center"
+            android:textColor="#050505"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_revert"
+            app:iconSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvDisplayMeassage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

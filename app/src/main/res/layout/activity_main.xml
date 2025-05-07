@@ -8,8 +8,8 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -21,24 +21,28 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="548dp"
-            android:layout_height="1076dp"
+            android:layout_width="535dp"
+            android:layout_height="1062dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.537"
             app:srcCompat="@drawable/background" />
 
         <TextView
             android:id="@+id/tvWelcomeTitle"
-            android:layout_width="351dp"
-            android:layout_height="95dp"
-            android:text="𝕎𝕖𝕝𝕔𝕠𝕞𝕖 𝕥𝕠 𝕥𝕙𝕖 𝕗𝕝𝕒𝕤𝕙𝕔𝕒𝕣𝕕 𝔾𝕒𝕞𝕖 "
+            android:layout_width="398dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="44dp"
+            android:text="ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʜɪꜱᴛᴏʀʏ ɢᴀᴍᴇ"
             android:textAlignment="center"
-            android:textColor="#A020F0"
+            android:textColor="#19236F"
             android:textSize="34sp"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -64,6 +68,7 @@
             android:layout_width="290dp"
             android:layout_height="60dp"
             android:layout_marginTop="68dp"
+            android:backgroundTint="#1554F2"
             android:ems="10"
             android:hint="𝖤𝖭𝖳𝖤𝖱 𝖴𝖲𝖤𝖱𝖭𝖠𝖬𝖤"
             android:inputType="text"

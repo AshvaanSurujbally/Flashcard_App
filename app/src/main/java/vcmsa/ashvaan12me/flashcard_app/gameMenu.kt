@@ -30,22 +30,23 @@ class gameMenu : AppCompatActivity() {
         val tvUserGreeting = findViewById<TextView>(R.id.tvUserGreeting)
         tvUserGreeting.text = "ARE YOU READY TO PLAY $username"
 
+        //set the start game button to take the user to the in game play page
+        btnStartGame.setOnClickListener {
+            val intent = Intent(this, game_play::class.java)
+            startActivity(intent)
+
+        }
+
         //now we set the exit button to take the user back to the main activity(the login page)
         btnExit.setOnClickListener {
             finish()
         }
-            //set the start game button to take the user to the in game play page
-            btnStartGame.setOnClickListener {
-                val intent = Intent(this, inGamePlay::class.java)
-                startActivity(intent)
-            }
-                //set the history button to take the user to the review page
-                btnHistory.setOnClickListener {
-                    val intent = Intent(this, reviewPage::class.java)
-                    startActivity(intent)
+
+        //set the history button to take the user to the review page
+        btnHistory.setOnClickListener {
+            val intent = Intent(this, reviewPage::class.java)
+            startActivity(intent)
                 }
-
-
 
 
 
