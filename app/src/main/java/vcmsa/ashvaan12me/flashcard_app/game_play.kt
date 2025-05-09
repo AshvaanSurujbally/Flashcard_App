@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -47,15 +48,19 @@ class game_play : AppCompatActivity() {
         var questionIndex = 0
         var score = 0
         Log.d(TAG, "Starting quiz. Initial score: $score")
-// Show the first question
+        // Show the first question
         tvQuestions.text = questions[questionIndex]
         tvScoreCounter.text = "Score: $score"
 
-// True button logic
+        // True button logic
         btnAnswerTrue.setOnClickListener {
             Log.d(TAG, "User clicked true as the answer ${questionIndex + 1}: ${questions[questionIndex]}")
             if (answers[questionIndex] == "True") {
                 score++
+                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
+
+            }else{
+                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
 
             }
 
@@ -66,19 +71,23 @@ class game_play : AppCompatActivity() {
             } else {
                 // now we move to the review page as soon as the quiz is completed
                 val intent = Intent(this, reviewPage::class.java)
+                // we send the score and the questions and answers to the review page and the we send the questions and answers to the answer page
                 intent.putExtra("score", score)
+                intent.putExtra("questions", questions)
+                intent.putExtra("answers", answers)
                 startActivity(intent)
             }
         }
-        //now we move to the review page as soon as the quiz is completed
 
-
-// False button logic
+        // now we do the false button
         btnAnswerFalse.setOnClickListener {
             Log.d(TAG, "User clicked false as the answer ${questionIndex + 1}: ${questions[questionIndex]}")
             if (answers[questionIndex] == "False") {
                 score++
+                Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
 
+            }else{
+                Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
             }
             questionIndex++
             if (questionIndex < questions.size) {
@@ -88,13 +97,20 @@ class game_play : AppCompatActivity() {
                 // Once all questions are answered, move to the review page
                 val intent = Intent(this, reviewPage::class.java)
                 intent.putExtra("score", score)
+                intent.putExtra("questions", questions)
+                intent.putExtra("answers", answers)
                 startActivity(intent)
                 finish() // Finish the current activity to prevent returning to the quiz
             }
+
         }
 
 
+
+
+
     }//end of onCreate
+
 
 }//end of inGamePlay
 

@@ -19,7 +19,7 @@ class gameMenu : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        //first we delare the variables needed
+        //first we delcare the variables needed
         val btnStartGame = findViewById<Button>(R.id.btnStartGame)
         val btnExit = findViewById<Button>(R.id.btnExit)
         val btnHistory = findViewById<Button>(R.id.btnHistory)

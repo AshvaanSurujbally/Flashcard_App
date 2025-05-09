@@ -31,8 +31,8 @@
 
         <TextView
             android:id="@+id/tvReviewTitle"
-            android:layout_width="322dp"
-            android:layout_height="97dp"
+            android:layout_width="320dp"
+            android:layout_height="71dp"
             android:layout_marginTop="16dp"
             android:text="🆁🅴🆅🅸🅴🆆"
             android:textAlignment="center"
@@ -47,13 +47,12 @@
             android:id="@+id/tvScoreTitle"
             android:layout_width="295dp"
             android:layout_height="69dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="24dp"
             android:text="𝕐𝕆𝕌ℝ 𝕊ℂ𝕆ℝ𝔼 😊"
             android:textAlignment="center"
             android:textColor="#0DF0A1"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvReviewTitle" />
 
@@ -119,7 +118,7 @@
             android:id="@+id/btnPlayAgain"
             android:layout_width="209dp"
             android:layout_height="56dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="24dp"
             android:backgroundTint="#28F204"
             android:text="Play Again"
             android:textAlignment="center"
@@ -130,6 +129,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvDisplayMeassage" />
+
+        <Button
+            android:id="@+id/btnAnswers"
+            android:layout_width="209dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#05F09E"
+            android:text="Answers"
+            android:textAlignment="center"
+            android:textColor="#070707"
+            android:textSize="24sp"
+            app:icon="@android:drawable/ic_menu_send"
+            app:iconSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnExitLogin"
+            app:layout_constraintVertical_bias="0.062" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

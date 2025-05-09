@@ -28,6 +28,11 @@ class reviewPage : AppCompatActivity() {
         val btnMenu = findViewById<Button>(R.id.btnMenu)
         val btnExitLogin = findViewById<Button>(R.id.btnExitLogin)
         val btnPlayAgain = findViewById<Button>(R.id.btnPlayAgain)
+        val btnAnswers = findViewById<Button>(R.id.btnAnswers)
+
+        // we get the questions and answers from the intent
+        val questions = intent.getStringArrayExtra("questions")
+        val answers = intent.getStringArrayExtra("answers")
 
         //now we get the score from the previous page and display it on the screen and wrirte a message based on the score the user got
         val score = intent.getIntExtra("score", 0)
@@ -70,9 +75,21 @@ class reviewPage : AppCompatActivity() {
             val intent = Intent(this, gameMenu::class.java)
             startActivity(intent)
         }
+         //set the button to take us to the review answers page
 
+         btnAnswers.setOnClickListener {
+             Log.d(TAG, " User clicked answers button clicked")
+                 val questions = intent.getStringArrayExtra("questions")
+                 val answers = intent.getStringArrayExtra("answers")
+
+                 val answerIntent = Intent(this, ReviewAnswers::class.java)
+                 answerIntent.putExtra("questions", questions)
+                 answerIntent.putExtra("answers", answers)
+                 startActivity(answerIntent)
+             }
+
+         }
 
 
 
     }
-}
