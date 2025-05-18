@@ -73,6 +73,10 @@ We welcome **feedback and contributions**! If you'd like to:
 Feel free to **Play**, **clone**, or **open an issue**.   
 Enjoy the game
 
+**Scrrenshots from APP**
+![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/9004fb62-e4b9-47ee-942b-e190334d4dd2)
+
+
 
 
 
