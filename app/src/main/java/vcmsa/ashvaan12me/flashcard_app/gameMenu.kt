@@ -33,20 +33,23 @@ class gameMenu : AppCompatActivity() {
         //set the start game button to take the user to the in game play page
         btnStartGame.setOnClickListener {
             val intent = Intent(this, game_play::class.java)
+            intent.putExtra("username", username)
             startActivity(intent)
-
-        }
-
-        //now we set the exit button to take the user back to the main activity(the login page)
-        btnExit.setOnClickListener {
             finish()
-        }
 
+        }
+        //set the exit button to exit the app
+        btnExit.setOnClickListener {
+            finishAffinity()
+        }
         //set the history button to take the user to the review page
         btnHistory.setOnClickListener {
             val intent = Intent(this, reviewPage::class.java)
+            intent.putExtra("username", username)
             startActivity(intent)
+            finish()
                 }
+
 
 
 

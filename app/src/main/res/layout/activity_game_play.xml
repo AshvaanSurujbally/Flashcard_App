@@ -19,12 +19,15 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="548dp"
-            android:layout_height="1076dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.341"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.537"
             app:srcCompat="@drawable/background" />
 
         <TextView
@@ -33,7 +36,7 @@
             android:layout_height="108dp"
             android:layout_marginTop="68dp"
             android:textAlignment="center"
-            android:textColor="#E107F4"
+            android:textColor="#0D0D0D"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +78,7 @@
             android:layout_height="37dp"
             android:layout_marginTop="48dp"
             android:textAlignment="center"
-            android:textColor="#AD1D7F"
+            android:textColor="#F2F1F2"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"

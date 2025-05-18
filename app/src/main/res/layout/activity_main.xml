@@ -21,8 +21,9 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="535dp"
-            android:layout_height="1062dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.341"
@@ -33,8 +34,8 @@
 
         <TextView
             android:id="@+id/tvWelcomeTitle"
-            android:layout_width="398dp"
-            android:layout_height="107dp"
+            android:layout_width="360dp"
+            android:layout_height="88dp"
             android:layout_marginTop="44dp"
             android:text="ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʜɪꜱᴛᴏʀʏ ɢᴀᴍᴇ"
             android:textAlignment="center"
@@ -42,7 +43,7 @@
             android:textSize="34sp"
             android:textStyle="italic"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.489"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 

@@ -28,6 +28,7 @@ class game_play : AppCompatActivity() {
         val btnAnswerFalse = findViewById<Button>(R.id.btnAnswerFalse)
         val tvScoreCounter = findViewById<TextView>(R.id.tvScoreCounter)
         val tvQuestions = findViewById<TextView>(R.id.tvQuestions)
+        val username = intent.getStringExtra("username")
         //now we create the arrays for the questions and answers
         val questions = arrayOf(
             "Was John F. Kennedy assassinated in 1963 ?",
@@ -71,6 +72,7 @@ class game_play : AppCompatActivity() {
             } else {
                 // now we move to the review page as soon as the quiz is completed
                 val intent = Intent(this, reviewPage::class.java)
+                intent.putExtra("username", username)
                 // we send the score and the questions and answers to the review page and the we send the questions and answers to the answer page
                 intent.putExtra("score", score)
                 intent.putExtra("questions", questions)
@@ -99,8 +101,10 @@ class game_play : AppCompatActivity() {
                 intent.putExtra("score", score)
                 intent.putExtra("questions", questions)
                 intent.putExtra("answers", answers)
+                intent.putExtra("username", username)
                 startActivity(intent)
-                finish() // Finish the current activity to prevent returning to the quiz
+                finish()
+
             }
 
         }

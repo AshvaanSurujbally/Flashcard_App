@@ -9,7 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
-        android:layout_height="729dp"
+        android:layout_height="0dp"
         android:layout_marginStart="1dp"
         android:layout_marginTop="1dp"
         android:layout_marginEnd="1dp"
@@ -21,8 +21,9 @@
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="548dp"
-            android:layout_height="1076dp"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -31,13 +32,13 @@
 
         <TextView
             android:id="@+id/tvAnswerTitle"
-            android:layout_width="267dp"
-            android:layout_height="54dp"
+            android:layout_width="386dp"
+            android:layout_height="78dp"
             android:layout_marginTop="16dp"
             android:text="🄰🄽🅂🅆🄴🅁🅂"
             android:textAlignment="center"
-            android:textColor="#042DE7"
-            android:textSize="34sp"
+            android:textColor="#3DE704"
+            android:textSize="48sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

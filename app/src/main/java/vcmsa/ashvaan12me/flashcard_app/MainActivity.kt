@@ -27,10 +27,7 @@ class MainActivity : AppCompatActivity() {
             val username = edtUsername.text.toString()
             if (username.isEmpty() || username.isBlank()) {
                 edtUsername.error = "Please enter a username"
-                //now we check if the username is not a number or a special character
-            } else if (!username.all { it.isLetter() }) {
-                edtUsername.error = "Please enter a valid username"
-                // Invalid username: contains non-letter characters
+                // I didn't check if the user enters a number or special character because it's a username
             }
             // now we move to the game menu page if the user enters a valid username
             else {
@@ -38,9 +35,11 @@ class MainActivity : AppCompatActivity() {
                 //now we take the username and add it to the game menu page as a greeting message in the next page
                 intent.putExtra("username", username)
                 startActivity(intent)
+                finish()
+
             }
 
         }
 
-    }
-}
+    } //end of onCreate
+} //end of MainActivity
