@@ -1,7 +1,7 @@
 
 # Flashcard Quiz App (True/False Edition)
 
-Welcome to the **Flashcard Quiz App**, a lightweight Android application designed to help users test their general knowledge with fun and quick **True or False** questions.
+Welcome to the **Flashcard Quiz App**, a  Android application designed to help users test their general knowledge with fun and quick **True or False** questions.
 
 ## Features
 
@@ -70,12 +70,10 @@ We welcome **feedback and contributions**! If you'd like to:
 - Enhance the UI
 - Implement a new feature
 
-Feel free to **fork**, **clone**, or **open an issue**. 🚀  
-Enjoy the game!
+Feel free to **Play**, **clone**, or **open an issue**.   
+Enjoy the game
 
----
 
-This README is well-structured and easy to navigate—let me know if you'd like any changes or formatting tweaks! 👍
 
 
 
