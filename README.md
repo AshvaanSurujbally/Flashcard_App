@@ -77,16 +77,10 @@ Enjoy the game
 
 
 
-![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/9004fb62-e4b9-47ee-942b-e190334d4dd2)
-![Screenshot 2025-05-18 143632](https://github.com/user-attachments/assets/54739181-631d-405f-ac75-92b0b8ba1313)
+![Screenshot 2025-05-18 143459](https://github.com/user-attachments/assets/e94d1a77-1522-4858-aa82-402a66730120)
 
-![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/83af00d1-4a9b-469e-b216-8e173f313649)
+![Screenshot 2025-05-18 143544](https://github.com/user-attachments/assets/26968d11-76a8-459a-adac-10b048a3977e)
 
-
-![Screenshot 2025-05-18 143632](https://github.com/user-attachments/assets/35671033-4d34-49c7-b2f2-5842cc7fdab0)
-
-![Screenshot 2025-05-18 143652](https://github.com/user-attachments/assets/d0b25cf4-03da-4376-890b-e7898608b2df)
-
-
-
-
+![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/e405ce34-856a-49b6-ab7b-5d5cf67adea6)
+![Screenshot 2025-05-18 143632](https://github.com/user-attachments/assets/03821785-90f0-4e17-afaa-848849b5afba)
+![Screenshot 2025-05-18 143652](https://github.com/user-attachments/assets/dbd6aee1-51d8-47d0-8a67-6851239c8a78)
