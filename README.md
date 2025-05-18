@@ -74,9 +74,18 @@ Feel free to **Play**, **clone**, or **open an issue**.
 Enjoy the game
 
 **Scrrenshots from APP**
+
+
+
 ![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/9004fb62-e4b9-47ee-942b-e190334d4dd2)
+![Screenshot 2025-05-18 143632](https://github.com/user-attachments/assets/54739181-631d-405f-ac75-92b0b8ba1313)
+
+![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/83af00d1-4a9b-469e-b216-8e173f313649)
 
 
+![Screenshot 2025-05-18 143632](https://github.com/user-attachments/assets/35671033-4d34-49c7-b2f2-5842cc7fdab0)
+
+![Screenshot 2025-05-18 143652](https://github.com/user-attachments/assets/d0b25cf4-03da-4376-890b-e7898608b2df)
 
 
 
