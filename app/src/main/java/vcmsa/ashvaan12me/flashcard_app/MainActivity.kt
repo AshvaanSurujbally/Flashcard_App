@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }//code start here
-        // first we delecare the variables needed
+        // first we declare the variables needed
         val btnLogin = findViewById<Button>(R.id.btnLogin)
         val edtUsername = findViewById<EditText>(R.id.edtUsername)
         // now we the user to enter a username and check if they did when they click the button

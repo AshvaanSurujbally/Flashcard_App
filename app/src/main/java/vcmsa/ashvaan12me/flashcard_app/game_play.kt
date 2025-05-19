@@ -29,6 +29,9 @@ class game_play : AppCompatActivity() {
         val tvScoreCounter = findViewById<TextView>(R.id.tvScoreCounter)
         val tvQuestions = findViewById<TextView>(R.id.tvQuestions)
         val username = intent.getStringExtra("username")
+        // Use Log to check if the username is received correctly and its passed to the next page
+        Log.d(TAG, "Received username: $username")
+
         //now we create the arrays for the questions and answers
         val questions = arrayOf(
             "Was John F. Kennedy assassinated in 1963 ?",
@@ -53,22 +56,27 @@ class game_play : AppCompatActivity() {
         tvQuestions.text = questions[questionIndex]
         tvScoreCounter.text = "Score: $score"
 
-        // True button logic
+
+        // True button  we if and else statement to check if the answer is correct or not
         btnAnswerTrue.setOnClickListener {
+            // we use log to check if the answer is correct or not
             Log.d(TAG, "User clicked true as the answer ${questionIndex + 1}: ${questions[questionIndex]}")
+            // we check if the answer is correct or not
             if (answers[questionIndex] == "True") {
                 score++
                 Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show()
-
             }else{
                 Toast.makeText(this, "Incorrect!", Toast.LENGTH_SHORT).show()
-
             }
-
+            // we move to the next question
             questionIndex++
             if (questionIndex < questions.size) {
                 tvQuestions.text = questions[questionIndex]
+                // we update the score counter
                 tvScoreCounter.text = "Score: $score"
+                // we use log to check the score and the question index
+                Log.d(TAG, "Current score: $score")
+                Log.d(TAG, "Current question index: $questionIndex")
             } else {
                 // now we move to the review page as soon as the quiz is completed
                 val intent = Intent(this, reviewPage::class.java)
@@ -78,10 +86,11 @@ class game_play : AppCompatActivity() {
                 intent.putExtra("questions", questions)
                 intent.putExtra("answers", answers)
                 startActivity(intent)
+                finish()
             }
         }
 
-        // now we do the false button
+        // now we do the false button we do if and else statement to check if the answer is correct or not
         btnAnswerFalse.setOnClickListener {
             Log.d(TAG, "User clicked false as the answer ${questionIndex + 1}: ${questions[questionIndex]}")
             if (answers[questionIndex] == "False") {
@@ -95,6 +104,9 @@ class game_play : AppCompatActivity() {
             if (questionIndex < questions.size) {
                 tvQuestions.text = questions[questionIndex]
                 tvScoreCounter.text = "Score: $score"
+                // we use log to check the score and the question index
+                Log.d(TAG, "Current score: $score")
+                Log.d(TAG, "Current question index: $questionIndex")
             } else {
                 // Once all questions are answered, move to the review page
                 val intent = Intent(this, reviewPage::class.java)
