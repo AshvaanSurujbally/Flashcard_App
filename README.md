@@ -75,7 +75,7 @@ Enjoy the game
 
 **Scrrenshots from APP**
 ![Screenshot 2025-05-19 204358](https://github.com/user-attachments/assets/d800d88b-7124-42a2-8849-483b484e50ab)
-[Screenshot 2025-05-19 204430](https://github.com/user-attachments/assets/166704c1-33ea-443f-b786-292b1f3a78d0)
+![Screenshot 2025-05-19 204430](https://github.com/user-attachments/assets/166704c1-33ea-443f-b786-292b1f3a78d0)
 ![Screenshot 2025-05-19 204!417](https://github.com/user-attachments/assets/b5102f0b-eb4d-448b-bf1c-c12b0e4f4dad)
 ![Screenshot 2025-05-19 204451](https://github.com/user-attachments/assets/cb22d330-d6bf-46f7-9304-6e0850cb4157)
 ![Screenshot 2025-05-19 204551](https://github.com/user-attachments/assets/0bcab56c-94d6-403d-b92a-3a980a294fca)
@@ -85,6 +85,9 @@ Enjoy the game
 
 
 **Code from Application**
+
+
+
 ![Screenshot 2025-05-18 143459](https://github.com/user-attachments/assets/e94d1a77-1522-4858-aa82-402a66730120)
 ![Screenshot 2025-05-18 143544](https://github.com/user-attachments/assets/26968d11-76a8-459a-adac-10b048a3977e)
 ![Screenshot 2025-05-18 143604](https://github.com/user-attachments/assets/e405ce34-856a-49b6-ab7b-5d5cf67adea6)
