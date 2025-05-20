@@ -93,7 +93,7 @@ class reviewPage : AppCompatActivity() {
             editor.apply()
             finishAffinity()
         }
-        //now we set the menu button to go back to the main page with the saved username (AI only assisted with the saving the username)
+
         btnMenu.setOnClickListener {
             Log.d(TAG, " User clicked menu button clicked")
             val intent = Intent(this, gameMenu::class.java)
