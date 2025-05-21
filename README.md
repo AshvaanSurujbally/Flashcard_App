@@ -106,7 +106,7 @@ Enjoy the game
 https://youtu.be/Oadg8N-rk6s 
 
 **Link to github repositoty**
-https://github.com/AshvaanSurujbally/Flashcard_App/edit/master/README.md
+https://github.com/AshvaanSurujbally/Flashcard_App
 
 Report:
 
