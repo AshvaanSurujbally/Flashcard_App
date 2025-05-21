@@ -23,9 +23,8 @@ Welcome to the **Flashcard Quiz App**, a  Android application designed to help u
 ### **Game Menu (`gameMenu.kt`)**
 - Displays a greeting with the entered username.
 - Options available:
-  - **Start Game**
-  - **Review History** (view previous answers)
-  - **Exit the app**
+- Start Game - Review History (view previous answers)
+- Exit the app
 
 ### **Gameplay Screen (`game_play.kt`)**
 - Displays **one True/False question at a time**.
