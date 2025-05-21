@@ -1,5 +1,8 @@
 
-# Flashcard Quiz App (True/False Edition) (AI assisted with the design and layout on how to create it will diffrenct styles.)
+# Flashcard Quiz App (True/False Edition)
+
+ (AI assisted with the design and layout on how to create it will diffrenct styles.)
+ 
 
 Welcome to the **Flashcard Quiz App**, a  Android application designed to help users test their general knowledge with fun and quick **True or False** questions.
 
