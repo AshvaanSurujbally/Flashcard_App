@@ -29,8 +29,8 @@ Welcome to the **Flashcard Quiz App**, a  Android application designed to help u
 
 ### **Gameplay Screen (`game_play.kt`)**
 - Displays **one True/False question at a time**.
-- Increments score for correct answers.
-- **Toast messages** notify users whether their answer is correct.
+- Uses a score counter for correct answers.
+- **Toast messages** notify users whether their answer is correct or inncorrect.
 - After the last question, navigates to the **Review Page**.
 
 #### Example Questions:
@@ -48,7 +48,7 @@ Welcome to the **Flashcard Quiz App**, a  Android application designed to help u
   - **Exit App**
   - **View All Answers**
 
-### **Answer Review (`ReviewAnswers.kt`)**
+### **Answer Page (`ReviewAnswers.kt`)**
 - Lists **all questions** with their correct answers.
 - Navigation buttons for **Back** and **Main Menu**.
 
