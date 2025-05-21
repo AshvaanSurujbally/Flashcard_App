@@ -1,5 +1,6 @@
 package vcmsa.ashvaan12me.flashcard_app
 
+import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
@@ -13,6 +14,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class game_play : AppCompatActivity() {
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -33,6 +35,8 @@ class game_play : AppCompatActivity() {
         Log.d(TAG, "Received username: $username")
 
         //now we create the arrays for the questions and answers
+        //used a youtube video to assist with code
+        //https://www.youtube.com/watch?v=K13fR2RHTak
         val questions = arrayOf(
             "Was John F. Kennedy assassinated in 1963 ?",
             "Did World War 2 end in 1943 ?",
@@ -55,8 +59,11 @@ class game_play : AppCompatActivity() {
         // Show the first question
         tvQuestions.text = questions[questionIndex]
         tvScoreCounter.text = "Score: $score"
+        // end of youtube assisted with code
 
 
+        // used a youtube video as a reference to assist with code and idea to create my own
+        //https://www.youtube.com/watch?v=K13fR2RHTak
         // True button  we if and else statement to check if the answer is correct or not
         btnAnswerTrue.setOnClickListener {
             // we use log to check if the answer is correct or not
@@ -116,6 +123,7 @@ class game_play : AppCompatActivity() {
                 intent.putExtra("username", username)
                 startActivity(intent)
                 finish()
+                // end of youtube assisted with code
 
             }
 

@@ -73,6 +73,9 @@ class reviewPage : AppCompatActivity() {
                 " $username YOU NAILED IT!!!!,$score Well done you are really intelligent"
         }
         //now we set the play again button to go back to the game page with the saved username (AI only assisted with the saving the username)
+        // question asked in chatgpt "how to save a score in kotlin on android studio"
+        // (50% originality)
+        // The  link to the chat room https://chatgpt.com/c/682d7789-bda4-800f-97bf-7fc3185e94ae
         btnPlayAgain.setOnClickListener {
             Log.d(TAG, " User clicked play again button clicked")
             val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
@@ -81,6 +84,7 @@ class reviewPage : AppCompatActivity() {
             intent.putExtra("username", username)
             startActivity(intent)
             finish()
+            //end of Ai assisted code
 
         }
         //now we set the exit login button to go back to the login page
@@ -91,6 +95,7 @@ class reviewPage : AppCompatActivity() {
             val editor = sharedPreferences.edit()
             editor.putInt("score", 0)
             editor.apply()
+            // we exit the app now once we click the exit button
             finishAffinity()
         }
 
@@ -113,6 +118,7 @@ class reviewPage : AppCompatActivity() {
         btnAnswers.setOnClickListener {
             Log.d(TAG, " User clicked answers button clicked")
             val answerIntent = Intent(this, ReviewAnswers::class.java)
+            // we send the questions and answers to the answer page so it can display them if we press the answer button again
             answerIntent.putExtra("questions", questions)
             answerIntent.putExtra("answers", answers)
             answerIntent.putExtra("username", username)
@@ -121,7 +127,7 @@ class reviewPage : AppCompatActivity() {
 
         }
         // we save the user score so when we go to different pages and come to the review page it will display the score currently(AI did not assist with this i used
-        // the saving username code to create mt own for this
+        // the saving username code to create mt own for this)
         val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
         val scores = sharedPreferences.getInt("score", 0)
         val editor = sharedPreferences.edit()

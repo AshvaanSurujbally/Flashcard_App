@@ -56,6 +56,7 @@ class gameMenu : AppCompatActivity() {
         //set the exit button to exit the app
         btnExit.setOnClickListener {
             // now we set the score to zero when we exit the app
+            // we used the save score to set the score to zero when we exit the app
             val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
             val editor = sharedPreferences.edit()
             editor.putInt("score", 0)
@@ -65,6 +66,7 @@ class gameMenu : AppCompatActivity() {
         //set the history button to take the user to the review page
         btnHistory.setOnClickListener {
             val intent = Intent(this, reviewPage::class.java)
+            // we send the username to the review page so it can display it again if we moving through pages so it will display
             val sharedPreferences = getSharedPreferences("MyPrefs", MODE_PRIVATE)
             val score = sharedPreferences.getInt("score", score )
             intent.putExtra("username", username)

@@ -36,7 +36,13 @@ class ReviewAnswers : AppCompatActivity() {
         val score = intent.getIntExtra("score", 0)
 
         //now we got to display the questions and answers in the textview
-        // Combine and display in the TextView (AI assisted with the idea of the  code)
+        // Combine and display in the TextView (AI assisted with the idea of the  code and website for the idea to use the string builder)
+        // link to website: https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.text/-string-builder/
+        // link to chatgpt chatroom :https://chatgpt.com/c/682d8071-4cac-8001-8ee9-86db6e178afc
+        // questioned asked :  "I want to display a list of questions and their answers stored in two separate arrays using
+        // Kotlin in Android. Could you generate code that uses a StringBuilder to combine the questions and answers
+        // into a formatted string and set it to a TextView?"
+
         val stringBuilder = StringBuilder()
         val count = minOf(questions?.size ?: 0, answers?.size ?: 0)
         for (i in 0 until count) {
@@ -45,8 +51,9 @@ class ReviewAnswers : AppCompatActivity() {
             // Log the question and answer for debugging if theres any problems
             Log.d("ReviewAnswers", "Question: ${questions?.get(i)}, Answer: ${answers?.get(i)}")
         }
+        // now we display the score in the textview
         tvDisplayAnswers.text = stringBuilder.toString()
-
+        // end of assisted code
         // we set the back button to go back to the review page
         btnBack.setOnClickListener {
             finish()
