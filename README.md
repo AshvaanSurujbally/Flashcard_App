@@ -1,8 +1,6 @@
 
 # Flashcard Quiz App (True/False Edition)
 
- (AI assisted with the design and layout on how to create it will diffrenct styles.)
- 
 
 Welcome to the **Flashcard Quiz App**, a  Android application designed to help users test their general knowledge with fun and quick **True or False** questions.
 
@@ -106,13 +104,35 @@ Enjoy the game
 https://youtu.be/Oadg8N-rk6s 
 
 **Link to github repositoty**
-https://github.com/AshvaanSurujbally/Flashcard_App
+[GitHub](https://github.com/AshvaanSurujbally/Flashcard_App)
 
 Report:
 
-TO run the application you first need to clone this  repository in andriod stuido.Make sure your version of andriod studio is up to date, you migth need to update the project file depending on new realeses of update to andriod stuidio studio. Once the project has built 
-open bulestacks and run bluestacks as your emulator. once the app
-This application was created as a form of studying for students. The intention of this app was to make studying easier for students in the form of a flashcard app. The app logic is for a set of questions that will appear when you start the game and the user will select either true or false. There are five questions based on history. After the user has completed the game, the app will take them to a review page which will display their score and a message based on their score. There is also a score counter in the game to alert users of their score. In the review page there is an option for the users to check all five questions along with the correct answers. This was created because it helps users to check where they went wrong during the game. The app has more features like a login page which then takes you to a menu page which displays 3 choices for the user to pick from. The first option is a start button which will enable gameplay, the second choice will allow users to exit the game, and finally there is a history button which will take the user to the review page and if the user has played once before, their score will be displayed — hence why the button is called history. A major consideration I have taken into account is the app design and UI. The app is as simple as it needs to be without any complex features (activities). The background is themed with small pieces of history and the buttons are in different colours which will help determine their usage — for example, green means start and red means exit. Another fact that I have taken into account is that the application is meant for studying purposes so I have designed it not to be distracting. The messages I picked in the review page are meant to encourage and motivate users, even if they get a bad score, not to give up and try again. The coding part of the application was meant to be simple, good code with no bugs to make the user experience better. The game is meant to be exclusive to the user so in the menu there is a message for the user with their name and in the review page, every score has the username included along with the message. There are four buttons in the review page to help navigate the user throughout the application.
+This app is a flashcard application that uses arrays to ask users questions and allow them to respond. The app was designed for students who are currently studying history to help them study more effectively and easily.
+
+To run the application, you first need to clone this repository in Android Studio. Make sure your version of Android Studio is up to date — you might need to update the project files depending on new releases or updates to Android Studio. Once the project has built, open Bluestacks and run it as your emulator. Once the app is running, you will be able to play the game and explore its features.
+
+The app logic consists of a set of questions that appear when you start the game, and the user selects either True or False. There are five questions based on history. After the user has completed the game, the app will take them to a review page, which displays their score and a message based on that score. There is also a score counter in the game to keep users informed of their progress. On the review page, there is an option for users to view all five questions along with the correct answers. This feature helps users identify where they made mistakes during the game.
+
+The app includes additional features such as a login page, which leads to a menu page with three choices for the user:
+
+1. A Start button to begin gameplay.
+
+2. An Exit button to close the game. 
+
+3.  History button that takes the user to the review page. If the user has played before, their previous score will be displayed.
+
+A major consideration in the development of this app was its design and user interface. The app is intentionally simple, without any complex features or activities. The background includes subtle historical pictures, and the buttons are color-coded to indicate their functions — for example, green means “Start” and red means “Exit.” Because the app is intended for studying, it has been designed to minimize distractions.
+
+The motivational messages in the review page are intended to encourage users, even if they receive a low score, not to give up and to try again. The code for the application was written to be simple and bug-free, ensuring a smooth user experience. The game is personalized for each user — their name appears in the menu and on the review page, where every score includes the username along with the motivational message. There are four buttons on the review page to help users navigate through the application.
+
+In summary, this Android application was designed with the goal of helping students study in an interactive and user-friendly way. It provides an engaging quiz experience, personalized feedback, and a clean UI to enhance learning without distractions. With its simple design and motivational features, the app aims to make studying both effective and enjoyable. Everything in the application is simple, allowing anyone to use it easily and avoiding any potential bias toward users, which could lead to legal concerns.
+
+
+## AI acknowledgement
+This README was created with assistance from ChatGPT by OpenAI, which provided support with the layout, structure, and overall design of the document.
+
+
 
 
 
