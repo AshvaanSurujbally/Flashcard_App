@@ -42,10 +42,10 @@ Welcome to the **Flashcard Quiz App**, a  Android application designed to help u
 ### **Review Page (`reviewPage.kt`)**
 - Displays **final score** and a motivational message based on performance.
 - Buttons available to:
-  - **Play Again**
-  - **Return to Main Menu**
-  - **Exit App**
-  - **View All Answers**
+- **Play Again**
+- **Return to Main Menu**
+- **Exit App**
+- **View All Answers**
 
 ### **Answer Page (`ReviewAnswers.kt`)**
 - Lists **all questions** with their correct answers.
