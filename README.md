@@ -102,7 +102,8 @@ Enjoy the game
 
 **Youtube demostration video :**
 
-[![watch the Demo Video](https://youtu.be/Oadg8N-rk6s)] 
+[![Watch the Demo Video](https://img.shields.io/badge/Watch-Demo%20Video-red?logo=youtube&style=for-the-badge)](https://youtu.be/Oadg8N-rk6s)
+ 
 
 **Link to github repositoty**
 
