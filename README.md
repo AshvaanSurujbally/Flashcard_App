@@ -101,12 +101,14 @@ Enjoy the game
 
 
 **Youtube demostration video :**
-https://youtu.be/Oadg8N-rk6s 
+
+[![watch the Demo Video](https://youtu.be/Oadg8N-rk6s)] 
 
 **Link to github repositoty**
+
 [GitHub](https://github.com/AshvaanSurujbally/Flashcard_App)
 
-Report:
+##Report:
 
 This app is a flashcard application that uses arrays to ask users questions and allow them to respond. The app was designed for students who are currently studying history to help them study more effectively and easily.
 
