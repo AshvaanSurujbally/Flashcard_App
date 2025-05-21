@@ -74,7 +74,7 @@ We welcome **feedback and contributions**! If you'd like to:
 Feel free to **Play**, **clone**, or **open an issue**.   
 Enjoy the game
 
-**Scrrenshots from APP**
+## Scrrenshots from APP
 
 ![Screenshot 2025-05-18 143459](https://github.com/user-attachments/assets/e94d1a77-1522-4858-aa82-402a66730120)
 ![Screenshot 2025-05-18 143544](https://github.com/user-attachments/assets/26968d11-76a8-459a-adac-10b048a3977e)
@@ -86,7 +86,7 @@ Enjoy the game
 
 
 
-**Code from Application**
+## Code from Application
 
 
 ![Screenshot 2025-05-19 204358](https://github.com/user-attachments/assets/d800d88b-7124-42a2-8849-483b484e50ab)
